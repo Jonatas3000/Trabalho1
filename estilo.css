@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 159, 247);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.minha-lista li {
+    margin-bottom: 20px;
+}
+
+.imagem-referencia {
+    width: 380px;
+    border-radius: 15px;
+}
+
+.minha-tabela {
+    font-style: oblique;
+    border: silver;
+    background-color: aqua;
+
+}
+
+.link-tech:hover {
+    color: red;
+
+}

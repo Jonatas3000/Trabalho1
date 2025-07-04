@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Jonatas</h1>
+    <p>Eu sou o Jonatas Paes, tenho 28 anos de idade, e sou natural de São Paulo Capital
+        mas moro em Brasilia. tenho interesse em cursar o tecnologo de ADS e me especializar
+        em programação</p>
+
+    <button id="botaoMensagem">Clique para ver uma mensagem!</button>
+
+    <div id="mensagem"></div>
+
+    <ul class="minha-lista">
+        <li>Jogos</li>
+        <li>Animes</li>
+        <li>Musica Eletronica</li>
+    </ul>
+
+    <img src="Animatrix.avif" alt="" class="imagem-referencia">
+
+    <table border="3" class="minha-tabela">
+        <caption>Países a Visitar</caption>
+        <tr>
+            <td>China</td>
+            <td><img src="China.webp" alt="Imagem da China" width="300"></td>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="Japão.webp" alt="Imagem do Japão" width="300"></td>
+        </tr>
+        <tr>
+            <td>Austrália</td>
+            <td><img src="Australia.jpeg" alt="Imagem da Austrália" width="300"></td>
+        </tr>
+    </table>
+
+    <a href="https://www.techtudo.com.br/" class="link-tech">
+        https://www.techtudo.com.br/
+    </a>
+
+    <script>
+        const botao = document.getElementById('botaoMensagem');
+        const divMensagem = document.getElementById('mensagem');
+
+        botao.addEventListener('click', () => {
+            divMensagem.textContent = "Seja bem-vindo! Você está fazendo um ótimo trabalho, continue assim!";
+        });
+    </script>
+
+</body>
+
+</html>
